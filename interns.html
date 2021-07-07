@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intern</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+    <style>
+        body,
+        html {
+            font-family: 'Athiti', sans-serif;
+            font-size: 14pt;
+        }
+
+        .btn {
+            font-family: 'Athiti', sans-serif;
+        }
+
+        .hero-bg {
+            background: url(bg.jpg) no-repeat left fixed;
+            background-size: cover;
+            background-size: 600px;
+        }
+
+        li {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-head hero-bg">
+            <div class="columns" style="margin:20px;">
+                <div class="column has-text-centered">
+                    <h1 class="title">ระบบสมัครฝึกงาน</h1>
+                    <h1 class="subtitle">TRAKOOL SOFTWARE COMPANY ONLINE</h1>
+                </div>
+                <div class="column  box has-background-white">
+                    <div class="content">
+                        <h3 class="title">ขั้นตอนการสมัครเข้าฝึกงาน</h3>
+                        <ol type="1">
+                            <li>กรอกใบสมัครฝึกงานผ่านระบบออนไลน์</li>
+                            <li>รอรับผลการอนุมัติทาง SMS และ Email ยืนยันการรับเข้าฝึกงาน</li>
+                            <li>ส่งเอกสารจากทางสถาบันการศึกษา พรัอม Transcript และ Resume ของนักศึกษาฝึกงาน
+                                (ยื่นเอกสารภายใน 15 วัน) มาที่</li>
+                        </ol>
+                        <div class="has-text-centered">
+                            <p class="has-text-link has-text-weight-bold">ฝ่ายทรัพยากรบุคคล บริษัท ทราคูล จำกัด <br>
+                                273/8 ต.ช้างคลาน อ.เมือง จ.เชียงใหม่ 50100</p>
+                        </div>
+                        <br>
+                        <div>
+                            <p><b>หมายเหตุ :</b> บริษัทขอสงวนสิทธิ์
+                                รับนักศึกษาฝึกงานจากคนที่ส่งเอกสารยืนยันการฝึกงานก่อน <b style="color:orangered">(first
+                                    Come First Serve)</b></p>
+                            <h5>กรณีไม่ส่งเอกสารยืนยันการฝึกงานภายใน 15 วัน ถือว่านักศึกษาฝึกงานสละสิทธิ์ในการเข้าฝึกงาน
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-body">
+            <div class="container box">
+                <div class="columns">
+                    <div class="column is-one-quarter">
+                        <img src="user.png" style="width:190px">
+                        <br>
+                        <div class="file">
+                            <label class="file-label">
+                                <input class="file-input" type="file" name="resume">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Choose a image
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <br><br>
+                        <div class="field">
+                            <label class="label">ชื่อ - สกุล , Name - Surname</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="ชื่อ - สกุล , Name - Surname">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">ที่อยู่, Address</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="ที่อยู่, Address">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <br><br>
+                        <div class="field">
+                            <label class="label">หมายเลขบัตรประชาชน , ID card</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="หมายเลขบัตรประชาชน , ID card">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-address-card"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">วัน เดือน ปี เกิด , Date of birth</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text"
+                                    placeholder="วัน เดือน ปี เกิด , Date of birth">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-birthday-cake"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">อีเมล์ , Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="อีเมล์ , Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">เบอร์โทรศัพท์ , Tel.</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="เบอร์โทรศัพท์ , Tel.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-phone"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">Website Blog Social Network อื่นๆ</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text"
+                                    placeholder="Website Blog Social Network อื่นๆ">
+                                <span class="icon is-small is-left">
+                                    <i class="fab fa-audible"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">สาขา , Major</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="สาขา , Major">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-university"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">คณะ , Faculty</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="คณะ , Faculty">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-university"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <label class="label">มหาลัยวิทยาลัย , University</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="มหาลัยวิทยาลัย , University">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-university"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label class="label">ความถนัดหรือภาษาในการเขียนโปรแกรม, Aptitude or programming language</label>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="1.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-award"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="2.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-award"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="3.">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-award"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label class="label">ช่วงเวลาในการฝึกงาน</label>
+                <div class="columns">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="วันที่เริ่มต้น">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input is-primary" type="text" placeholder="วันที่สิ้นสุด">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label class="label">แนะนำตัวให้เรารู้จักคุณ Introduce yourself</label>
+                <textarea class="textarea is-primary"
+                    placeholder="แนะนำตัวให้เรารู้จักคุณ Introduce yourself..."></textarea>
+                <br>
+                <div class="columns">
+                    <div class="column">
+                        <label class="label">Transcript (.pdf) *</label>
+                        <div class="file has-name is-fullwidth">
+                            <label class="file-label">
+                                <input class="file-input" type="file" id="file-tran">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Choose
+                                    </span>
+                                </span>
+                                <span class="file-name" id="transcript"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <label class="label">Resume (.pdf) *</label>
+                        <div class="file has-name is-fullwidth">
+                            <label class="file-label">
+                                <input class="file-input" type="file" id="file-resume">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Choose
+                                    </span>
+                                </span>
+                                <span class="file-name" id="resume"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="has-text-centered">
+                    <button class="button is-link btn">สมัครฝึกงาน</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var transcript = document.getElementById("file-tran");
+        transcript.onchange = function () {
+            if (transcript.files.length > 0) {
+                document.getElementById('transcript').innerHTML = transcript.files[0].name;
+            }
+        };
+        var resume = document.getElementById("file-resume");
+        resume.onchange = function () {
+            if (resume.files.length > 0) {
+                document.getElementById('resume').innerHTML = resume.files[0].name;
+            }
+        };
+    </script>
+</body>
+
+</html>
